@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etNombreYApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombreYApellidos"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/etPresupuesto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/presupuesto"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNombreYApellidos"/>
+
+    <TextView
+        android:id="@+id/txtPregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pregunta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPresupuesto"/>
+
+    <RadioGroup
+        android:id="@+id/rgOpcionViaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPregunta">
+
+        <RadioButton
+            android:id="@+id/rbPeninsula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/costa_peninsular" />
+
+        <RadioButton
+            android:id="@+id/rbIslas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/costa_insular" />
+
+        <RadioButton
+            android:id="@+id/rbInterior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/turismo_de_interior" />
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/switchIva"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/IVA"
+        android:checked="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgOpcionViaje"/>
+
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/mostrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchIva"/>
+
+    <TextView
+        android:id="@+id/txtPrecioFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/precioFinal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMostrar"/>
+
+    <ImageView
+        android:id="@+id/imgFoto"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPrecioFinal"
+        tools:srcCompat="@drawable/costa_insular" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
