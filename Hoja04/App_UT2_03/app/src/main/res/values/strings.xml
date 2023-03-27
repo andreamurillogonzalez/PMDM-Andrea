@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">App_UT2_03</string>
+    <string name="nombreYApellidos">Nombre y apellidos</string>
+    <string name="presupuesto">Presupuesto</string>
+    <string name="pregunta">¿A qué destino quiere ir?</string>
+    <string name="costa_peninsular">Costa Peninsular</string>
+    <string name="costa_insular">Costa Insular</string>
+    <string name="turismo_de_interior">Turismo de interior</string>
+    <string name="IVA">I.V.A</string>
+    <string name="mostrar">Mostrar</string>
+    <string name="precioFinal">Precio Final</string>
+</resources>
