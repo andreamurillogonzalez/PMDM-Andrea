@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App_UT2_01</string>
+    <string name="Ivan">Iván</string>
+    <string name="Pepe">Pepe</string>
+    <string name="Maria">María</string>
+    <string name="Rosa">Rosa</string>
+    <string name="cambiar">Cambiar</string>
+</resources>

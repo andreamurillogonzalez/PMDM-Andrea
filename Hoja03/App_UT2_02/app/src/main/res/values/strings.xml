@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">App_UT2_02</string>
+    <string name="cero">0</string>
+    <string name="mostrarToast">MOSTRAR TOAST</string>
+    <string name="contar">CONTAR</string>
+    <string name="btnCE">CE</string>
+    <string name="btnC">C</string>
+    <string name="btnBorrar">BORRAR</string>
+    <string name="btn1">1</string>
+    <string name="btn2">2</string>
+    <string name="btn3">3</string>
+    <string name="btn4">4</string>
+    <string name="btn5">5</string>
+    <string name="btn6">6</string>
+    <string name="btn7">7</string>
+    <string name="btn8">8</string>
+    <string name="btn9">9</string>
+    <string name="btnSuma">+</string>
+    <string name="btnResta">-</string>
+    <string name="btnMultiplica">*</string>
+    <string name="btnDivide">/</string>
+    <string name="btnIgual">=</string>
+    <string name="btnPunto">.</string>
+</resources>
